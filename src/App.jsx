@@ -3,7 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import CarList from './components/CarList'
 import CarDetail from './components/CarDetail'
-// import Navbar from './components/Navbar'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 import {
@@ -14,7 +14,7 @@ import {
 
 function App(){
   return(
-    <div>hhh</div>
+    <div>hhhai</div>
 
   )
 }
@@ -28,6 +28,6 @@ export default App;
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/cars" element={<CarList />} /> */}
           {/* <Route path="/cars/:id" element={<CarDetail />} /> */}
-        {/* </Routes> */}
+        // </Routes>
         // <Footer />
       // </BrowserRouter>
