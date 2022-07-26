@@ -3,7 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import CarList from './components/CarList'
 import CarDetail from './components/CarDetail'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 import {
@@ -14,17 +14,20 @@ import {
 
 function App(){
   return(
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path = "/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cars" element={<CarList />} />
-          <Route path="/cars/:id" element={<CarDetail />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+    <div>hhh</div>
+
   )
 }
 
 export default App;
+
+      // <BrowserRouter>
+        {/* <Navbar /> */}
+        // <Routes>
+          // <Route path = "/" element={<Home />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/cars" element={<CarList />} /> */}
+          {/* <Route path="/cars/:id" element={<CarDetail />} /> */}
+        {/* </Routes> */}
+        // <Footer />
+      // </BrowserRouter>
