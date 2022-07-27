@@ -1,7 +1,11 @@
-export default function SectionService(){
+import { Link } from 'react-router-dom';
+import { React } from 'react'
+
+const SectionService = (props) => {
+    const { navList, logo } = props;
+
     return(
-        <>
-        <h1>Section service</h1>
-        </>
+        <div>section service</div>
     )
-}
+  }
+export default SectionService;

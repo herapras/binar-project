@@ -1,7 +1,7 @@
-export default function SectionHero(){
+const SectionHero = () => {
     return(
-        <>
-        <h1>sec hero</h1>
-        </>
+        <div>sec hero</div>
     )
 }
+
+export default SectionHero;

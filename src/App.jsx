@@ -12,10 +12,30 @@ import {
   Route,
 } from 'react-router-dom';
 
-function App(){
-  return(
-    <div>hhhai</div>
+const App = () => {
+  const navList = ["Our Service", "Why Us", "Testimonial", "FAQ"];
+  const logo = 'ini logo';
 
+
+  const [showSide, setshowSide] = useState(false);
+  console.log(showSide);
+
+  const handleShowSide = () => {
+    console.log("hai");
+    setshowSide(!showSide);
+  }
+
+  const props = {
+    navList,
+    logo,
+    handleShowSide,
+    showSide
+  }
+  
+  return(
+    <div>
+        <Navbar {...props}/>
+    </div>
   )
 }
 
