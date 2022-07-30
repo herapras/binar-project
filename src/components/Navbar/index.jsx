@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import List from '../List'
+import NavbarList from '../NavbarList'
 
 const Navbar = (props) => {
     const { navList, logo, handleShowSide, showSide } = props;
@@ -10,7 +10,7 @@ const Navbar = (props) => {
         <h1 onClick={handleShowSide}>{!!showSide ? "X" : "="}</h1>
       </div>
       {navList.map((item => (
-            <List item={item}/>
+            <NavbarList item={item}/>
         )
         ))
       }

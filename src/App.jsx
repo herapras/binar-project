@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import Home from './components/Home'
-import About from './components/About'
 import CarList from './components/CarList'
 import CarDetail from './components/CarDetail'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import SectionService from './components/Services';
+import Services from './components/Services';
+
 
 import {
   BrowserRouter,
@@ -14,8 +16,7 @@ import {
 
 const App = () => {
   const navList = ["Our Service", "Why Us", "Testimonial", "FAQ"];
-  const logo = 'ini logo';
-
+  const logo = 'src/components/BINAR CAR land.png';
 
   const [showSide, setshowSide] = useState(false);
   console.log(showSide);
@@ -33,21 +34,14 @@ const App = () => {
   }
   
   return(
-    <div>
-        <Navbar {...props}/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route path='/' element={<Home {...props} />} />
+        <Route path='/carlist' element={<CarList {...props} />} />
+        <Route path='/cardetail/:id' element={<CarDetail {...props} />} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 
 export default App;
-
-      // <BrowserRouter>
-        {/* <Navbar /> */}
-        // <Routes>
-          // <Route path = "/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
-          {/* <Route path="/cars" element={<CarList />} /> */}
-          {/* <Route path="/cars/:id" element={<CarDetail />} /> */}
-        // </Routes>
-        // <Footer />
-      // </BrowserRouter>
