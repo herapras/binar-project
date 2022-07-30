@@ -12,9 +12,9 @@ const Services = (props) => {
         <img src = 'src/content/img_service.png' />
       </div>
       <div>
-        <h1 class = "servicelist-header">Best Car Rental for any kind of trip in (Lokasimu)!</h1>
-        <p class = "servicelist-p">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
-        <div class ="servicelist-list">
+        <h1 class = "servicelist--h">Best Car Rental for any kind of trip in (Lokasimu)!</h1>
+        <p class = "servicelist--p">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+        <div class ="servicelist--list">
         {serviceList.map((itemService => (
               <ServiceList itemService={itemService}/>
           )

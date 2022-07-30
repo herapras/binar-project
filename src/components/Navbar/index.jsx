@@ -1,11 +1,17 @@
 import { useState } from 'react';
 import NavbarList from '../NavbarList'
+import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
-    const { navList, logo, handleShowSide, showSide } = props;
+    const { navList, handleShowSide, showSide } = props;
 
     return(
     <div>
+      <div class ='logo'>
+        <Link to ='/'>
+          <img src = 'src/content/BINAR CAR land.png'/>
+        </Link>
+        </div>
       <div>
         <h1 onClick={handleShowSide}>{!!showSide ? "X" : "="}</h1>
       </div>

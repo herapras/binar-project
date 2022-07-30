@@ -1,0 +1,18 @@
+.whyus--container {
+    padding-top: 24px;
+    padding-left: 24px;
+
+}
+
+.whyus--title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+

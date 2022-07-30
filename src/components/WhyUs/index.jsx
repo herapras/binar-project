@@ -1,7 +1,13 @@
+import WhyUsCard from "../WhyUsCard";
+
 export default function WhyUs(){
     return(
         <>
-        <h1>Why Us?</h1>
+            <div>
+                <h1>Why Us?</h1>
+                <p>Mengapa harus pilih Binar Car Rental?</p>
+            </div>
+            <WhyUsCard />
         </>
     )
 }

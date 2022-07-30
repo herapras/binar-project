@@ -1,4 +1,4 @@
-.servicelist-header {
+.servicelist--h {
     width: 468px;
     height: 72px;
     font-family: 'Arial';
@@ -12,7 +12,7 @@
     flex-grow: 0;
 }
 
-.servicelist-p {
+.servicelist--p {
     width: 468px;
     height: 80px;
     font-family: 'Arial';
@@ -26,7 +26,7 @@
     flex-grow: 0;
 }
 
-.servicelist-list {
+.servicelist--list {
     display: flex;
     flex-direction: column;
     gap: 16px;
