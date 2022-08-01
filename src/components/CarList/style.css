@@ -1,0 +1,49 @@
+.carlist--img {
+    height: 160px;
+    width: 270px;
+    padding-top: 55px;
+    padding-left: 40px;
+}
+
+.carlist--name{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 24px;
+}
+
+.carlist--price {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 24px;
+}
+
+.carlist--desc {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 24px;
+}
+
+.carlist--button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+    background: #5CB85F;
+    color: ghostwhite;
+    width: 285px;
+    height: 48px;
+}

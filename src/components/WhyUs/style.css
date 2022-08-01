@@ -1,0 +1,19 @@
+.whyus--h {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.whyus--p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}

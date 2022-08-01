@@ -1,0 +1,33 @@
+.hero--img {
+    height: 407px;
+    width: 704px;
+}
+
+.hero--h {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.hero--p {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hero--button {
+    border-radius: 2px;
+    padding: 8px, 12px, 8px, 12px;
+    background: #5CB85F;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+.hero--all {
+    display: flex;
+}

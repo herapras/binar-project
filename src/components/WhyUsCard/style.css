@@ -1,7 +1,11 @@
 .whyus--container {
     padding-top: 24px;
     padding-left: 24px;
-
+    gap: 16px;
+}
+.whyus--icon {
+    height: 32px;
+    width: 32px;
 }
 
 .whyus--title {
@@ -16,3 +20,14 @@
     flex-grow: 0;
 }
 
+.whyus--desc {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
