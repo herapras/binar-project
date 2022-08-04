@@ -14,6 +14,7 @@ export default function WhyUsCard (){
               width: 268,
               height: 196,
             },
+            maxwidth: 1440,
           }}
         >
           <Paper variant="outlined">
